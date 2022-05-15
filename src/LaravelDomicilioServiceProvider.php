@@ -2,9 +2,9 @@
 
 namespace Hitocean\LaravelDomicilio;
 
+use Hitocean\LaravelDomicilio\Commands\LaravelDomicilioCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Hitocean\LaravelDomicilio\Commands\LaravelDomicilioCommand;
 
 class LaravelDomicilioServiceProvider extends PackageServiceProvider
 {

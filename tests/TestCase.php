@@ -2,9 +2,9 @@
 
 namespace Hitocean\LaravelDomicilio\Tests;
 
+use Hitocean\LaravelDomicilio\LaravelDomicilioServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Hitocean\LaravelDomicilio\LaravelDomicilioServiceProvider;
 
 class TestCase extends Orchestra
 {

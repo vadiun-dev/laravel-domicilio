@@ -15,6 +15,4 @@ class Domicilio extends Model
     {
         return $this->morphTo();
     }
-
-
 }
