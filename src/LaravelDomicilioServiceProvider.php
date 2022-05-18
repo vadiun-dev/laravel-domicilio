@@ -3,6 +3,7 @@
 namespace Hitocean\LaravelDomicilio;
 
 use Hitocean\LaravelDomicilio\Commands\LaravelDomicilioCommand;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -21,5 +22,8 @@ class LaravelDomicilioServiceProvider extends PackageServiceProvider
             ->hasViews()
             ->hasMigration('create_domicilio_table')
             ->hasCommand(LaravelDomicilioCommand::class);
+        Factory::guessFactoryNamesUsing(
+            fn (string $modelName) => 'Hitocean\\LaravelDomicilio\\Database\\Factories\\'.class_basename($modelName).'Factory'
+        );
     }
 }
