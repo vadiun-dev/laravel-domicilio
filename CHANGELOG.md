@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-domicilio` will be documented in this file.
 
+## 1.0.2 - 2022-05-18
+
+- arreglo factory
+
 ## 1.0.1 - 2022-05-17
 
 - support for php 8.0
