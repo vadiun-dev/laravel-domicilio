@@ -3,7 +3,6 @@
 namespace Hitocean\LaravelDomicilio\Resources;
 
 use Hitocean\LaravelDomicilio\Models\Domicilio;
-use Hitocean\LaravelDomicilio\Resources\DomicilioResource;
 
 class DomicilioResourceTestHelpers extends ResourceTestHelper
 {
@@ -13,7 +12,7 @@ class DomicilioResourceTestHelpers extends ResourceTestHelper
      */
     protected static function mapModel($domicilio): array
     {
-       return [
+        return [
            'calle' => $domicilio->calle,
            'numero' => $domicilio->numero,
            'piso' => $domicilio->piso,
