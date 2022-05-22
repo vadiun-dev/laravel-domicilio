@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-domicilio` will be documented in this file.
 
+## 1.1.1 - 2022-05-22
+
+- agrego resource test helper
+
 ## 1.1.0 - 2022-05-22
 
 - agrego domicilio resource
