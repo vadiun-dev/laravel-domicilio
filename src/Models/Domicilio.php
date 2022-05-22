@@ -18,7 +18,7 @@ class Domicilio extends Model
         'partido',
         'provincia',
         'latitud',
-        'longitud'
+        'longitud',
     ];
 
     public function addressable()
